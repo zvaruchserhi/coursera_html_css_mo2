@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Exo 2', sans-serif; 
+}
+h1 {
+    text-align: center;
+    font-size: 200%;
+}
+h2 {
+    border: 1px solid;
+    margin: 0;
+    text-align: center;
+    float: right;
+    font-size: 150%;
+}
+.h2-1 {
+    background-color: brown;
+}
+.h2-2 {
+    background-color: bisque;
+}
+.h2-3 {
+    background-color: black;
+    color: aliceblue;
+}
+p {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    } 
+.div-1 {
+    background-color: skyblue;
+}
+.div-2 { 
+    background-color: orangered;
+}   
+.div-3 {
+    background-color: silver;
+}     
+    /* * * pc devices only **/
+@media (min-width: 992px) {
+    .pc {
+      width: 31%;
+      border: 1px solid;
+      height: auto;
+      margin-left: 20px;     
+      float: left;
+    }
+    h2 {
+        width: 35%;
+    }
+}
+/***** tables devices only ***/
+@media (min-width:768px) and (max-width: 991px) {
+    .div-out {
+        margin-left: 7.45%;
+    }
+    .div-1, .div-2 {
+        border: 1px solid;
+        height: auto;
+        width: 45%;
+        margin-bottom: 20px;
+        float: left;
+        
+    }   
+    .div-2 {
+        margin-left: 20px;
+    }
+    .div-3 {
+        border: 1px solid;
+        height: auto;
+        width: 92.55%;
+        float: left;
+    }  
+    .h2-1, .h2-2 {
+        border: 1px solid;
+        margin: 0;
+        width: 35%;
+        text-align: center;
+        float: right;
+    }
+    .h2-3 {
+        width: 17%;
+    }
+}
+/***** mobile devices only ***/
+@media (max-width: 767px) {
+    .div-out {
+        margin-left: 8.44%;
+    }
+    h2 {
+        width: 35%;
+    }
+    .mob {
+        border: 1px solid;
+        width: 91.66%;
+        height: auto;
+        margin-bottom: 20px;
+        float: left;
+    }
+}
